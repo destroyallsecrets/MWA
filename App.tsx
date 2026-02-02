@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Experience3D } from './components/Experience3D';
 import { SwissGrid } from './components/SwissGrid';
 import { ProjectList } from './components/ProjectList';
-import { GeminiAssistant } from './components/GeminiAssistant';
 import { ArrowDown } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -79,9 +78,6 @@ const App: React.FC = () => {
 
       </div>
 
-      {/* Floating Elements */}
-      <GeminiAssistant />
-      
       {/* Sticky Top Bar (Glass) */}
       <div className="fixed top-0 left-0 w-full p-6 flex justify-between items-center z-50 pointer-events-none mix-blend-difference">
          <div className="font-bold tracking-tighter text-xl pointer-events-auto cursor-pointer">MWA</div>
